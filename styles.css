@@ -1,0 +1,129 @@
+body{
+  background-color: Black;
+}
+h1{
+  color: White;
+}
+.h1style{
+  margin:auto;
+  font-size: 3rem;
+margin-top: 70px;
+
+}
+
+.newh1{
+  font-size: 3rem;
+}
+.img1{
+  margin-top: 100px;
+  width:200px;
+  height:300px;
+}
+.protonmint{
+  color:white;
+
+}
+.a1{
+  color:white;
+}
+.hr1{
+  border-style: dotted;
+    width: 30px;
+    margin: auto;
+    border-bottom: 0;
+    border-color: White;
+    border-width: thick;
+    border-spacing: 10px;
+}
+.About{
+  font-size: 2.5rem;
+  margin-top: 50px;
+  width:75%;
+  color: White;
+margin-left: 150px;}
+.gif{
+  width: 300px;
+  height:300px;
+  margin-top: 20px;
+
+}
+.Abouttext{
+  margin-top: 100px;
+  color:White;
+  width:70%;
+}
+.Aboutsection{
+  width:70%;
+  margin: auto;
+
+}
+.nft{
+  width:250px;
+  height:318px;
+}
+.newcon{
+  margin-top:100px;
+width:80%;
+}
+.col1{
+  text-align:center;
+}
+
+.faq-heading{
+    border-bottom: #777;
+
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+.myimage{
+  height:200px;
+  width:200px;
+}
